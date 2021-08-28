@@ -4,7 +4,9 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header className='py-8 flex flex-col md:flex-row items-center justify-between'>
+      {/* eslint-disable-next-line @next/next/link-passhref */}
       <Link href='/'>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src='logo.svg' alt='Logo' className='w-64 mb-8 md:mb-0' />
       </Link>
       <div>
